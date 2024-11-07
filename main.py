@@ -1,9 +1,10 @@
+# Programmers:  Jalen and Theresa
+# Course:  CS151, Dr. Zaleem Jembre Yalew
+# Due Date: 11/6/24
 # Lab Assignment: 8
-# Problem Statement:Finding out how mab
-#You need to design, write, and test a program that calculates the cost of buying flooring for your friend’s house.
-# Your friend may need to test the cost with different designs, so your program should ask your friend if they want to check the cost of another design.
-# Data In: Length and width of flooring in each room, and type of flooring being installed
-# Data Out:  Total balance of all the rooms combined
+# Problem Statement:Displaying the tally of the amount of each sum rolled by two die with asteriks
+# Data In: number of rolls
+# Data Out: Correct number of asteriks next to sum of the two die
 # Credits: In Class
 
 
