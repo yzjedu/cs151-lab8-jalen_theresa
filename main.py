@@ -8,22 +8,31 @@
 
 
 
-import random
 
 
 import random
 
+def sum_list_creation():
+  return [0] * 13
 
+def sum_of_dice(amount_of_rolls, sum_list):
+    count = 0
 
-sum_list = [0] * 13
-amount_of_rolls = int(input("How many rolls would you like to calculate?"))
-count = 0
+    while count < amount_of_rolls:
+        total = random.randint(2, 12)
+        sum_list[total] += 1
+        count += 1
+def display(sum_list):
+    for i in (range(2, 13)):
+        print(f"Sum of {i}: {sum_list[i] * '*'}")
 
-while count < amount_of_rolls:
-    total = random.randint(2,12)
-    sum_list[total] += 1
-    count += 1
+def main():
+    amount_of_rolls = int(input("How many rolls would you like to calculate?"))
+    while amount_of_rolls == str:
+        amount_of_rolls = int(input("Invalid input please enter a positive integer for how many rolls would you like to calculate?"))
+    sum_list = sum_list_creation()
+    sum_list_creation()
+    sum_of_dice(amount_of_rolls, sum_list)
+    display(sum_list)
 
-
-for i in (range(2,13)):
-        print("Sum of", [i], sum_list[i] * "*")
+main()
