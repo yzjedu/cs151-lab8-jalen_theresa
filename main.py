@@ -1,4 +1,11 @@
-import random
+# Lab Assignment: 8
+# Problem Statement:Finding out how mab
+#You need to design, write, and test a program that calculates the cost of buying flooring for your friend’s house.
+# Your friend may need to test the cost with different designs, so your program should ask your friend if they want to check the cost of another design.
+# Data In: Length and width of flooring in each room, and type of flooring being installed
+# Data Out:  Total balance of all the rooms combined
+# Credits: In Class
+
 
 
 import random
