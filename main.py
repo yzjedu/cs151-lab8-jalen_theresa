@@ -11,6 +11,9 @@
 import random
 
 
+import random
+
+
 
 sum_list = [0] * 13
 amount_of_rolls = int(input("How many rolls would you like to calculate?"))
