@@ -20,7 +20,7 @@ def sum_of_dice(amount_of_rolls, sum_list):
     count = 0
 
     while count < amount_of_rolls:
-        total = random.randint(2, 12)
+        total = random.randint(1, 6) + random.randint(1, 6)
         sum_list[total] += 1
         count += 1
 def display(sum_list):
